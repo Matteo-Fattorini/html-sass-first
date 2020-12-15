@@ -1,0 +1,29 @@
+$background-color: steelblue;
+$button-color: coral;
+$text-color: white;
+
+body {
+  background-color: $background-color;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  color: $button-color;
+}
+
+p {
+  font-size: 1.5rem
+}
+
+button {
+  background-color: $button-color;
+  color: $text-color;
+  padding: 10 30px;
+  font-size: 3rem;
+}
